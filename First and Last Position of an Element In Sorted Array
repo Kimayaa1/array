@@ -47,8 +47,8 @@ int LastOccur(int arr[], int size, int key){
 int main() {
    int even [8] = {0, 0, 1, 1, 2, 2, 2, 2};
    int firstindex = FirstOccur(even, 8, 2);
-   cout<< "first occurence of 2 is  " << firstindex << endl;
+   cout<< "first occurrence of 2 is  " << firstindex << endl;
    int lastindex = LastOccur(even, 8, 2);
-   cout<< "last occurence of 2 is  " << lastindex << endl;
+   cout<< "last occurrence of 2 is  " << lastindex << endl;
    
 }
