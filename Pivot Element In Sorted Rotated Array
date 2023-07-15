@@ -39,6 +39,11 @@ int Binarysearch(int arr[], int s, int e, int key){
 int main() {
     int arr[5] = {7,9,1,2,3};
     int pivot = getpivot(arr, 5);
+    int key = 2;
     cout<< "Pivot is at index " << pivot<< endl;
-    cout<< "given elememt is at index " << Binarysearch(arr, pivot, 4, 2) << endl;
+    if(arr[key]>= arr[pivot]){
+        cout<< "given elememt is at index " << Binarysearch(arr, pivot, 4, 2) << endl;}
+    else{
+    cout<< "given elememt is at index " << Binarysearch(arr, 0, 4, 2) << endl;
+}
 }
